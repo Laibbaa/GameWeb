@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-border {
+  border: 2px solid transparent; /* Adjust the width and type as needed */
+  border-image: linear-gradient(
+      156.52deg,
+      rgba(255, 196, 45, 0.4) 2.12%,
+      rgba(255, 255, 255, 0.0001) 39%,
+      rgba(255, 255, 255, 0.0001) 54.33%,
+      rgba(163, 189, 0, 0.1) 93.02%
+    )
+    1;
+}
+.gradient-black {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    156.52deg,
+    rgba(255, 255, 255, 0.4) 2.12%, 
+    rgba(255, 255, 255, 0.0001) 100%,
+    rgba(255, 255, 255, 0.0001) 54.33%,
+    rgba(255, 255, 255, 0.1) 93.02%
+  );
+  border-image-slice: 1;
+}
+.custom-gradient{
+  background: linear-gradient(269.75deg, #110400 0.94%, #2D1100 98.96%);
+}
+.gradient-brown{
+  background: linear-gradient(180deg, rgba(255, 92, 0, 0.11) 0%, rgba(172, 58, 0, 0.11) 100%);
+
+}
+.border-white-gradient {
+  border-width: 1.2px;
+  border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 51.16%, rgba(255, 255, 255, 0.1) 100.23%);
+  border-image-slice: 1;
+}
+.custom-gradient1{
+  background: linear-gradient(269.75deg, rgba(228, 167, 174, .3) 0.94%, rgba(53, 162, 255, .3) 98.96%);
+
+}
+.custom-gradient2{
+background: linear-gradient(269.75deg, rgba(1, 254, 224, .3) 0.94%, rgba(102, 87, 236, .3) 98.96%);
+}
+.custom-gradient3{
+background: linear-gradient(269.75deg, rgba(0, 28, 156, .3) 0.94%, rgba(125, 41, 150, .3) 98.96%);
+}
+.custom-gradient4{
+background: linear-gradient(269.75deg, rgba(13, 47, 232, .3) 0.94%, rgba(255, 120, 46, .3) 98.96%);
+}
+.custom-gradient5{
+background: linear-gradient(269.75deg, rgba(82, 215, 240, .3) 0.94%, rgba(0, 96, 232, .3) 98.96%);
+}
+.custom-gradient6{
+background: linear-gradient(269.75deg, rgba(0, 127, 255, 0.3) 0.94%, rgba(5, 146, 112, .3) 98.96%);
+}
+.custom-gradient7{
+background: linear-gradient(269.75deg, rgba(240, 142, 63, 0.3) 0.94%, rgba(249, 143, 120, 0.3) 98.96%);
+}
+.custom-gradient8{
+background: linear-gradient(269.75deg, rgba(255, 178, 49, 0.3) 0.94%, rgba(228, 64, 58, 0.3) 98.96%);
+}
+.custom-gradient9{
+  background: linear-gradient(269.75deg, rgba(2, 21, 81, .3) 0.94%, rgba(114, 18, 22, .3) 98.96%);
+
+}
+.custom-gradient10{
+  background: linear-gradient(269.75deg, rgba(219, 106, 120, .3) 0.94%, rgba(137, 38, 165, .3) 98.96%);
+
+}
+.gradient-gray {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  border-image-source: linear-gradient(176deg, rgba(255, 255, 255, 0.4) 2.12%, rgba(255, 255, 255, 0.0001) 39%, rgba(255, 255, 255, 0.0001) 54.33%, rgba(255, 255, 255, 0.1) 93.02%);
+  border-image-slice: 1;
+}
+.polygon{
+clip-path: (0 0, 85% 0, 100% 0, 76% 113%, 0 100%);
+}
+.custom-gradient11{
+  background: linear-gradient(166.85deg, #F7F7F7 6.08%, #C5BCAE2E 90.53%);
+}
+.custom-gradient12{
+background: linear-gradient(330.48deg, #F4B114 20.67%, #FF9000 61.75%);
+}
